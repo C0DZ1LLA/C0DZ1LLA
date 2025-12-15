@@ -83,8 +83,6 @@ I’m **C0DZ1LLA** — a multidisciplinary creator who builds **futuristic digit
 
 ## 🏗️ Featured Systems (Gallery)
 
-> Tip: Go to your GitHub profile → “Pinned” → pin your best repos.  
-> This section is a fast visual grid; you can swap `repo=` anytime.
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=C0DZ1LLA&repo=C0DZ1LLA&bg_color=000000&title_color=d4af37&text_color=f4f1e5&icon_color=d4af37&border_color=d4af37" />
