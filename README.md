@@ -108,7 +108,6 @@ I’m **C0DZ1LLA** — a multidisciplinary creator who builds **futuristic digit
   <img src="https://raw.githubusercontent.com/C0DZ1LLA/C0DZ1LLA/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
 </p>
 
-> If you don’t see it yet: the workflow below generates it into the `output` branch.
 
 ---
 
