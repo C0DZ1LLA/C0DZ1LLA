@@ -27,8 +27,8 @@
     <style>
       .title { font: 800 58px 'Segoe UI', Arial, sans-serif; letter-spacing: 8px; fill: #f8f5ee; }
       .sub { font: 600 18px 'Segoe UI', Arial, sans-serif; letter-spacing: 5px; fill: #d4af37; }
-      .tiny { font: 600 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #9d9278; }
-      .metric { font: 800 28px 'Segoe UI', Arial, sans-serif; fill: #f4f1e5; }
+      .tiny { font: 600 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 1.2px; fill: #9d9278; }
+      .metric { font: 800 27px 'Segoe UI', Arial, sans-serif; fill: #f4f1e5; letter-spacing: 0.5px; }
       .label { font: 700 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #d4af37; }
     </style>
   </defs>
@@ -50,29 +50,29 @@
   <text x="700" y="330" text-anchor="middle" class="tiny">AI SYSTEMS • AUTOMATION • DASHBOARDS • FUTURISTIC INTERFACES</text>
 
   <g transform="translate(92 164)">
-    <rect width="275" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
+    <rect width="310" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
     <text x="24" y="38" class="label">BUILD MODE</text>
     <text x="24" y="78" class="metric">SYSTEMS</text>
-    <text x="24" y="102" class="tiny">not just screens</text>
+    <text x="24" y="102" class="tiny">systems over screens</text>
   </g>
 
-  <g transform="translate(1032 164)">
-    <rect width="275" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
+  <g transform="translate(998 164)">
+    <rect width="310" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
     <text x="24" y="38" class="label">PUBLIC LAYER</text>
     <text x="24" y="78" class="metric">SIGNAL</text>
-    <text x="24" y="102" class="tiny">showcase ready</text>
+    <text x="24" y="102" class="tiny">market-ready signal</text>
   </g>
 
   <g transform="translate(92 315)">
-    <rect width="275" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
+    <rect width="310" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
     <text x="24" y="35" class="label">STACK</text>
-    <text x="24" y="65" class="tiny">Next.js • Firebase • Vercel • AI • Automation</text>
+    <text x="24" y="65" class="tiny">Next.js • AI • Vercel • Automation</text>
   </g>
 
-  <g transform="translate(1032 315)">
-    <rect width="275" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
+  <g transform="translate(998 315)">
+    <rect width="310" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
     <text x="24" y="35" class="label">DESIGN</text>
-    <text x="24" y="65" class="tiny">Obsidian • Gold • Telemetry • Control Rooms</text>
+    <text x="24" y="65" class="tiny">Obsidian • Gold • Control UI</text>
   </g>
 
   <g opacity="0.28">
