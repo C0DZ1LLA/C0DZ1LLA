@@ -1,0 +1,82 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="goldCore" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#8b6f1f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1400" y2="520">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="42%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#161102"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1400" y2="0">
+      <stop offset="0%" stop-color="#604b14" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#d4af37" stop-opacity="0.78"/>
+      <stop offset="50%" stop-color="#f4f1e5" stop-opacity="0.96"/>
+      <stop offset="80%" stop-color="#d4af37" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#604b14" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 800 58px 'Segoe UI', Arial, sans-serif; letter-spacing: 8px; fill: #f8f5ee; }
+      .sub { font: 600 18px 'Segoe UI', Arial, sans-serif; letter-spacing: 5px; fill: #d4af37; }
+      .tiny { font: 600 13px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #9d9278; }
+      .metric { font: 800 28px 'Segoe UI', Arial, sans-serif; fill: #f4f1e5; }
+      .label { font: 700 12px 'Segoe UI', Arial, sans-serif; letter-spacing: 2px; fill: #d4af37; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="520" rx="34" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="1397" height="517" rx="32" stroke="#d4af37" stroke-opacity="0.45" stroke-width="3"/>
+  <rect x="42" y="42" width="1316" height="436" rx="26" fill="#050505" fill-opacity="0.64" stroke="#d4af37" stroke-opacity="0.26"/>
+  <circle cx="700" cy="250" r="280" fill="url(#goldCore)"/>
+
+  <path d="M85 126H410M990 126H1315M85 396H410M990 396H1315" stroke="url(#goldLine)" stroke-width="2"/>
+  <path d="M137 260H380M1020 260H1263" stroke="#d4af37" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="9 12"/>
+  <path d="M700 80L785 128L870 260L785 392L700 440L615 392L530 260L615 128L700 80Z" stroke="#d4af37" stroke-opacity="0.62" stroke-width="2" filter="url(#glow)"/>
+  <path d="M700 150L778 260L700 370L622 260L700 150Z" stroke="#f4f1e5" stroke-opacity="0.42" stroke-width="2"/>
+  <circle cx="700" cy="260" r="42" stroke="#d4af37" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="700" cy="260" r="9" fill="#d4af37"/>
+
+  <text x="700" y="218" text-anchor="middle" class="sub">NEURAL COMMAND DECK</text>
+  <text x="700" y="286" text-anchor="middle" class="title">C0DZ1LLA</text>
+  <text x="700" y="330" text-anchor="middle" class="tiny">AI SYSTEMS • AUTOMATION • DASHBOARDS • FUTURISTIC INTERFACES</text>
+
+  <g transform="translate(92 164)">
+    <rect width="275" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
+    <text x="24" y="38" class="label">BUILD MODE</text>
+    <text x="24" y="78" class="metric">SYSTEMS</text>
+    <text x="24" y="102" class="tiny">not just screens</text>
+  </g>
+
+  <g transform="translate(1032 164)">
+    <rect width="275" height="118" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.35"/>
+    <text x="24" y="38" class="label">PUBLIC LAYER</text>
+    <text x="24" y="78" class="metric">SIGNAL</text>
+    <text x="24" y="102" class="tiny">showcase ready</text>
+  </g>
+
+  <g transform="translate(92 315)">
+    <rect width="275" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
+    <text x="24" y="35" class="label">STACK</text>
+    <text x="24" y="65" class="tiny">Next.js • Firebase • Vercel • AI • Automation</text>
+  </g>
+
+  <g transform="translate(1032 315)">
+    <rect width="275" height="88" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.16"/>
+    <text x="24" y="35" class="label">DESIGN</text>
+    <text x="24" y="65" class="tiny">Obsidian • Gold • Telemetry • Control Rooms</text>
+  </g>
+
+  <g opacity="0.28">
+    <path d="M80 80H1320V440H80V80Z" stroke="#f4f1e5" stroke-dasharray="2 16"/>
+    <path d="M160 80V440M1240 80V440M80 160H1320M80 360H1320" stroke="#d4af37" stroke-opacity="0.36" stroke-dasharray="4 18"/>
+  </g>
+</svg>

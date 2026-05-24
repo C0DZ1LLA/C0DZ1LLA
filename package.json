@@ -1,0 +1,10 @@
+{
+  "name": "c0dz1lla-profile",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Public GitHub profile README and visual identity layer for C0DZ1LLA.",
+  "type": "module",
+  "scripts": {
+    "sync:pulse": "node scripts/sync-profile-pulse.mjs"
+  }
+}

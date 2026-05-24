@@ -1,0 +1,71 @@
+<svg width="1400" height="560" viewBox="0 0 1400 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="560">
+      <stop stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#0c0c0c"/>
+      <stop offset="1" stop-color="#151104"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#d4af37" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title { font: 800 34px 'Segoe UI', Arial, sans-serif; fill: #f8f5ee; letter-spacing: 4px; }
+      .node { font: 700 16px 'Segoe UI', Arial, sans-serif; fill: #f4f1e5; letter-spacing: 1px; }
+      .sub { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #9d9278; letter-spacing: 1px; }
+      .mini { font: 700 11px 'Segoe UI', Arial, sans-serif; fill: #d4af37; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1400" height="560" rx="32" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1397" height="557" rx="30" stroke="#d4af37" stroke-opacity="0.42" stroke-width="3"/>
+  <circle cx="700" cy="290" r="250" fill="url(#core)"/>
+  <circle cx="700" cy="290" r="185" stroke="#d4af37" stroke-opacity="0.25" stroke-dasharray="10 16"/>
+  <circle cx="700" cy="290" r="105" stroke="#f4f1e5" stroke-opacity="0.16" stroke-dasharray="4 12"/>
+  <line x1="700" y1="290" x2="246" y2="145" stroke="#d4af37" stroke-opacity="0.38"/>
+  <line x1="700" y1="290" x2="1154" y2="145" stroke="#d4af37" stroke-opacity="0.38"/>
+  <line x1="700" y1="290" x2="246" y2="420" stroke="#d4af37" stroke-opacity="0.38"/>
+  <line x1="700" y1="290" x2="1154" y2="420" stroke="#d4af37" stroke-opacity="0.38"/>
+  <line x1="700" y1="290" x2="700" y2="92" stroke="#d4af37" stroke-opacity="0.32"/>
+  <line x1="700" y1="290" x2="700" y2="478" stroke="#d4af37" stroke-opacity="0.32"/>
+
+  <g filter="url(#glow)">
+    <circle cx="700" cy="290" r="58" fill="#0a0a0a" stroke="#d4af37" stroke-width="3"/>
+    <text x="700" y="284" text-anchor="middle" class="mini">CORE</text>
+    <text x="700" y="313" text-anchor="middle" class="node">C0DZ1LLA</text>
+  </g>
+
+  <text x="700" y="48" text-anchor="middle" class="title">ACTIVE PROJECT ORBIT</text>
+
+  <g transform="translate(95 102)">
+    <rect width="302" height="92" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.38"/>
+    <text x="22" y="36" class="node">AION Code Oracle</text>
+    <text x="22" y="64" class="sub">AI audit and launch intelligence</text>
+  </g>
+  <g transform="translate(1003 102)">
+    <rect width="302" height="92" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.38"/>
+    <text x="22" y="36" class="node">AION Drops Events</text>
+    <text x="22" y="64" class="sub">map-first discovery and drops</text>
+  </g>
+  <g transform="translate(95 377)">
+    <rect width="302" height="92" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.38"/>
+    <text x="22" y="36" class="node">Tree of Life Explorer</text>
+    <text x="22" y="64" class="sub">scripture graph and visual system</text>
+  </g>
+  <g transform="translate(1003 377)">
+    <rect width="302" height="92" rx="18" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.38"/>
+    <text x="22" y="36" class="node">Terra Intel Globe</text>
+    <text x="22" y="64" class="sub">geospatial command interface</text>
+  </g>
+  <g transform="translate(548 70)">
+    <rect width="304" height="82" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.18"/>
+    <text x="22" y="34" class="node">Mastris Master Control</text>
+    <text x="22" y="60" class="sub">ERP, QR, operations workflow</text>
+  </g>
+  <g transform="translate(548 430)">
+    <rect width="304" height="82" rx="18" fill="#0b0b0b" stroke="#f4f1e5" stroke-opacity="0.18"/>
+    <text x="22" y="34" class="node">Casino MasterHub</text>
+    <text x="22" y="60" class="sub">game logic, ledger, audit concepts</text>
+  </g>
+</svg>

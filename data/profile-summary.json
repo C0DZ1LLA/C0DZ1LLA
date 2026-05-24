@@ -1,0 +1,13 @@
+{
+  "profile": "C0DZ1LLA",
+  "website": "https://www.samanconnect.com/",
+  "style": "obsidian-gold-command-deck",
+  "updated": "2026-05-24",
+  "publicProfileReadme": true,
+  "privateRepoNamesVisible": false,
+  "notes": [
+    "Private repository names are not exposed by default.",
+    "README visible sections avoid missing output-branch assets.",
+    "Dynamic profile pulse can be updated by GitHub Actions when PROFILE_STATS_TOKEN is configured."
+  ]
+}

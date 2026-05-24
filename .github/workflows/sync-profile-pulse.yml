@@ -1,0 +1,34 @@
+name: Sync profile pulse
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update README pulse
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          GITHUB_LOGIN: C0DZ1LLA
+          SHOW_PRIVATE_REPO_NAMES: "false"
+        run: node scripts/sync-profile-pulse.mjs
+
+      - name: Commit profile pulse
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(profile): sync profile pulse"
+          file_pattern: README.md data/profile-summary.json
