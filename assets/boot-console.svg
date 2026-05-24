@@ -1,0 +1,17 @@
+<svg width="1100" height="300" viewBox="0 0 1100 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="C0DZ1LLA build console">
+  <style>
+    .mono{font-family:'Courier New',monospace}.line{fill:#f8f5ee;font-size:19px}.gold{fill:#d4af37}.muted{fill:#9d9278}.scan{animation:scan 4s linear infinite}@keyframes scan{0%{transform:translateY(-40px)}100%{transform:translateY(310px)}}.blink{animation:blink 1s steps(2,end) infinite}@keyframes blink{50%{opacity:.1}}
+  </style>
+  <rect x="10" y="10" width="1080" height="280" rx="26" fill="#050505"/>
+  <rect x="10" y="10" width="1080" height="280" rx="26" stroke="#d4af37" opacity=".75"/>
+  <rect x="40" y="42" width="1020" height="216" rx="14" fill="#080808" stroke="#3d3412"/>
+  <g opacity=".16"><path d="M62 72H1038M62 112H1038M62 152H1038M62 192H1038M62 232H1038" stroke="#d4af37"/></g>
+  <rect class="scan" x="42" y="0" width="1016" height="36" fill="url(#g)" opacity=".38"/>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="36"><stop stop-color="#d4af37" stop-opacity="0"/><stop offset=".5" stop-color="#d4af37" stop-opacity=".45"/><stop offset="1" stop-color="#d4af37" stop-opacity="0"/></linearGradient></defs>
+  <text x="70" y="82" class="mono gold" font-size="16" letter-spacing="3">BUILD CONSOLE</text>
+  <text x="70" y="122" class="mono line">&gt; booting profile interface...</text>
+  <text x="70" y="156" class="mono line">&gt; loading AI systems, dashboards, automation layers...</text>
+  <text x="70" y="190" class="mono line">&gt; compiling public signal from private build lab...</text>
+  <text x="70" y="224" class="mono line">&gt; status: <tspan class="gold">ONLINE</tspan><tspan class="blink"> █</tspan></text>
+  <text x="782" y="82" class="mono muted" font-size="13">OBSIDIAN / GOLD / TELEMETRY</text>
+</svg>

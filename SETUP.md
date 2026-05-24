@@ -66,3 +66,15 @@ cleaned duplicated setup/docs
 added safe optional automation
 kept the profile public-safe and professional
 ```
+
+
+## Visual assets added in V3
+
+```txt
+assets/mission-patches.svg
+assets/boot-console.svg
+assets/active-systems-dashboard.svg
+assets/tech-radar.svg
+```
+
+These are local SVGs, so they load immediately from the profile repository without needing an external image host.

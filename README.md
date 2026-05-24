@@ -24,6 +24,10 @@
   <img src="./assets/neural-command-deck.svg" alt="C0DZ1LLA neural command deck" width="100%" />
 </p>
 
+<p align="center">
+  <img src="./assets/mission-patches.svg" alt="C0DZ1LLA mission patches" width="100%" />
+</p>
+
 ---
 
 ## Core Signal
@@ -37,6 +41,10 @@ interfaces with purpose
 automation where it saves time
 security before public exposure
 ```
+
+<p align="center">
+  <img src="./assets/boot-console.svg" alt="C0DZ1LLA build console" width="100%" />
+</p>
 
 ---
 
@@ -90,6 +98,14 @@ security before public exposure
   <img src="./assets/project-orbit.svg" alt="Project orbit map" width="100%" />
 </p>
 
+<p align="center">
+  <img src="./assets/active-systems-dashboard.svg" alt="Active systems dashboard" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/tech-radar.svg" alt="Technology radar" width="100%" />
+</p>
+
 | System | Direction |
 |---|---|
 | **AION Code Oracle** | AI website, code, launch, and business audit reports |
@@ -128,6 +144,14 @@ profile stays clean, visual, and safe
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=C0DZ1LLA&bg_color=050505&color=f8f5ee&line=d4af37&point=f4f1e5&area=true&hide_border=true" alt="Contribution graph" />
+</p>
+
+---
+
+## Achievement Layer
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=C0DZ1LLA&theme=onedark&no-frame=true&no-bg=true&margin-w=12&margin-h=12" alt="GitHub trophy wall" />
 </p>
 
 ---

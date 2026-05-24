@@ -1,0 +1,11 @@
+<svg width="1100" height="390" viewBox="0 0 1100 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology radar">
+  <style>.h{fill:#f8f5ee;font-family:Verdana,Arial,sans-serif;font-weight:900;font-size:26px;letter-spacing:7px}.l{fill:#d4af37;font-family:Verdana,Arial,sans-serif;font-weight:800;font-size:12px;letter-spacing:3px}.t{fill:#f8f5ee;font-family:Verdana,Arial,sans-serif;font-weight:700;font-size:14px}.m{fill:#b9ad89;font-family:Verdana,Arial,sans-serif;font-size:12px}.ring{stroke:#d4af37;opacity:.38}.dot{fill:#d4af37}.spin{transform-origin:550px 216px;animation:s 22s linear infinite}@keyframes s{to{transform:rotate(360deg)}} </style>
+  <rect x="10" y="10" width="1080" height="370" rx="28" fill="#050505"/><rect x="10" y="10" width="1080" height="370" rx="28" stroke="#d4af37" opacity=".75"/>
+  <text x="70" y="64" class="l">STACK RADAR</text><text x="70" y="101" class="h">TECH SIGNAL</text>
+  <g class="spin"><circle cx="550" cy="216" r="46" class="ring"/><circle cx="550" cy="216" r="88" class="ring"/><circle cx="550" cy="216" r="132" class="ring"/><path d="M550 70V360M405 216H695" class="ring"/><circle cx="550" cy="84" r="5" class="dot"/><circle cx="682" cy="216" r="5" class="dot"/><circle cx="550" cy="348" r="5" class="dot"/><circle cx="418" cy="216" r="5" class="dot"/></g>
+  <circle cx="550" cy="216" r="28" fill="#d4af37"/><text x="525" y="221" fill="#050505" font-family="Verdana" font-size="12" font-weight="900">CORE</text>
+  <g transform="translate(94 140)"><text class="l">FRONTEND</text><text y="30" class="t">Next.js · React · Tailwind</text><text y="55" class="m">fast interfaces, dashboards, product pages</text></g>
+  <g transform="translate(94 252)"><text class="l">AI / AUTOMATION</text><text y="30" class="t">OpenAI · agents · n8n</text><text y="55" class="m">workflows, assistants, structured engines</text></g>
+  <g transform="translate(750 140)"><text class="l">DATA / BACKEND</text><text y="30" class="t">PostgreSQL · Prisma · Firebase</text><text y="55" class="m">auth, records, events, ledgers, admin logic</text></g>
+  <g transform="translate(750 252)"><text class="l">DEPLOY / SYSTEMS</text><text y="30" class="t">Vercel · GitHub · APIs</text><text y="55" class="m">deployment, repo hygiene, delivery pipelines</text></g>
+</svg>
